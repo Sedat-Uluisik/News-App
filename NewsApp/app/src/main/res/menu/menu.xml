@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:icon="@drawable/more_icon"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/topHeadlines"
+                android:title="@string/top_headlines"/>
+            <item android:title="@string/categories">
+                <menu>
+                    <item android:id="@+id/bussiness"
+                        android:title="@string/business"/>
+                    <item android:id="@+id/entertainment"
+                        android:title="@string/entertainment"/>
+                    <item android:id="@+id/health"
+                        android:title="@string/health"/>
+                    <item android:id="@+id/science"
+                        android:title="@string/science"/>
+                    <item android:id="@+id/sports"
+                        android:title="@string/sports"/>
+                    <item android:id="@+id/technology"
+                        android:title="@string/technology"/>
+                </menu>
+            </item>
+            <item android:title="@string/country"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/us"
+                        android:title="@string/united_states" />
+                    <item android:id="@+id/tr"
+                        android:title="@string/turkey"/>
+                    <item android:id="@+id/de"
+                        android:title="@string/germany"/>
+                    <item android:id="@+id/gb"
+                        android:title="@string/united_kingdom"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

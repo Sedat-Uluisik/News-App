@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="author">Author: </string>
+    <string name="search">Search</string>
+    <string name="top_headlines">Top headlines</string>
+    <string name="categories">Categories</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="country">Country</string>
+    <string name="united_states">United States</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="turkey">Turkey</string>
+    <string name="germany">Germany</string>
+</resources>
